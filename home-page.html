@@ -43,6 +43,14 @@ const user3 = {
 user1.greet()
 user2.greet()
 user3.greet()
+
+const User = function (name, age){
+    this.name = name;
+    this.age = age;
+    this.greet = function () {
+        console.log(`Salom, mening ismim ${this.name}!`)
+    }
+}
     </script>
 </body>
 </html>
